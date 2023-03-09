@@ -23,7 +23,7 @@ class Bot(commands.AutoShardedInteractionBot):
 if __name__ == '__main__':
     bot = Bot(
         intents     = disnake.Intents.default(),
-        test_guilds = [0]
+        test_guilds = []
     )
 
     for file in os.listdir('./cogs/'):
